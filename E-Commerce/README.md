@@ -14,7 +14,9 @@ A modern, responsive e-commerce website built with vanilla HTML, CSS, and JavaSc
 
 ## 🚀 Live Demo
 
-Visit the live site: [BR.F E-Commerce](https://your-username.github.io/e-commerce/)
+Visit the live site: [Monarch Prime E-Commerce](https://NBALFG.github.io/Monarch-Prime-E-commerce-Store/)
+
+*Your site will be live once GitHub Pages is enabled*
 
 ## 📁 Project Structure
 
@@ -75,8 +77,8 @@ E-Commerce/
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/e-commerce.git
-   cd e-commerce
+   git clone https://github.com/NBALFG/Monarch-Prime-E-commerce-Store.git
+   cd Monarch-Prime-E-commerce-Store
    ```
 
 2. **Open in browser**:
