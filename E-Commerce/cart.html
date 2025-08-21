@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cart — BR.F</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="cart.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <nav class="navbar" aria-label="Primary">
+        <div class="container navbar__row">
+          <a href="index.html" class="logo" aria-label="BR.F home">
+            <img src="logo.png" alt="BR.F" class="logo__img" />
+          </a>
+          <div class="navbar__actions">
+            <a href="product.html" class="icon-btn" aria-label="Back to catalog">
+              <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M15.41 7.41 14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
+            </a>
+            <a href="#" class="icon-btn cart" aria-label="Cart">
+              <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2S15.9 22 17 22s2-.9 2-2-.9-2-2-2zM7.16 14.26l.03.01L19 15c.55 0 1-.45 1-1 0-.18-.05-.35-.14-.5L17.1 8H7.21l-.94-2H2v2h2l3.6 7.59-.44.88C6.54 17.37 7.14 18 7.9 18H19v-2H7.9l.27-.54.99-1.2z"/></svg>
+              <span class="badge">0</span>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main" class="container" style="padding:1rem 0 2rem">
+      <h1>Cart</h1>
+      <div class="cart-grid">
+        <section class="cart-list" aria-label="Cart items"></section>
+        <aside class="cart-summary" aria-label="Summary">
+          <div class="summary-card">
+            <div class="row"><span>Subtotal</span><strong class="subtotal">$0.00</strong></div>
+            <div class="row"><span>Shipping</span><span class="muted">Calculated at checkout</span></div>
+            <hr/>
+            <div class="row total"><span>Total</span><strong class="total">$0.00</strong></div>
+            <button class="btn" disabled>Checkout</button>
+          </div>
+        </aside>
+      </div>
+    </main>
+
+    <footer class="site-footer"><div class="container footer__bottom"><small>© <span id="year"></span> BR.F</small></div></footer>
+
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+    <script src="cart-utils.js"></script>
+    <script src="cart.js"></script>
+  </body>
+  </html>
+
+
