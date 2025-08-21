@@ -14,9 +14,9 @@ A modern, responsive e-commerce website built with vanilla HTML, CSS, and JavaSc
 
 ## 🚀 Live Demo
 
-Visit the live site: [Monarch Prime E-Commerce](https://NBALFG.github.io/Monarch-Prime-E-commerce-Store/)
+Visit the live site: [Monarch Fashion](https://monarchfashion.click/)
 
-*Your site will be live once GitHub Pages is enabled*
+*Your custom domain will be live once DNS propagation is complete*
 
 ## 📁 Project Structure
 
