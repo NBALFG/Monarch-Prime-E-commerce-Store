@@ -4,7 +4,7 @@
 window.PRODUCTS = [
   {
     id: 'nike-air-max-270',
-    name: 'Nike Air Max 270',
+    name: 'Item 1',
     price: 45000,
     description: 'Iconic comfort with visible Air unit for all-day cushioning.',
     images: [
@@ -15,7 +15,7 @@ window.PRODUCTS = [
   },
   {
     id: 'adidas-ultraboost-22',
-    name: 'Adidas Ultraboost 22',
+    name: 'Item 2',
     price: 52000,
     description: 'Revolutionary running shoe with responsive Boost midsole.',
     images: [
@@ -26,7 +26,7 @@ window.PRODUCTS = [
   },
   {
     id: 'leset-galant-chair',
-    name: 'Leset Galant Chair',
+    name: 'Item 3',
     price: 25000,
     description: 'Industrial design meets modern features with premium materials.',
     images: [
@@ -37,7 +37,7 @@ window.PRODUCTS = [
   },
   {
     id: 'soft-element-jack',
-    name: 'Soft Element Jack Chair',
+    name: 'Item 4',
     price: 22000,
     description: 'Minimal lounge chair with soft cushions and a compact footprint.',
     images: [
@@ -48,7 +48,7 @@ window.PRODUCTS = [
   },
   {
     id: 'chester-chair',
-    name: 'Chester Chair',
+    name: 'Item 5',
     price: 28000,
     description: 'A timeless silhouette with sturdy wooden legs and plush seating.',
     images: [
@@ -59,7 +59,7 @@ window.PRODUCTS = [
   },
   {
     id: 'avrora-chair',
-    name: 'Avrora Chair',
+    name: 'Item 6',
     price: 18000,
     description: 'Bright, playful armchair that adds character to any space.',
     images: [
@@ -70,7 +70,7 @@ window.PRODUCTS = [
   },
   {
     id: 'everyday-hoodie',
-    name: 'Everyday Hoodie',
+    name: 'Item 7',
     price: 8500,
     description: 'Ultra‑soft fleece hoodie for everyday comfort and style.',
     images: [
@@ -81,7 +81,7 @@ window.PRODUCTS = [
   },
   {
     id: 'nigerian-ankara-dress',
-    name: 'Nigerian Ankara Dress',
+    name: 'Item 8',
     price: 15000,
     description: 'Beautiful traditional Ankara fabric dress with modern design.',
     images: [
@@ -92,7 +92,7 @@ window.PRODUCTS = [
   },
   {
     id: 'wireless-earbuds',
-    name: 'Wireless Earbuds Pro',
+    name: 'Item 9',
     price: 35000,
     description: 'High-quality wireless earbuds with noise cancellation.',
     images: [
@@ -103,7 +103,7 @@ window.PRODUCTS = [
   },
   {
     id: 'smartphone-case',
-    name: 'Premium Phone Case',
+    name: 'Item 10',
     price: 3500,
     description: 'Durable protective case for smartphones with stylish design.',
     images: [
@@ -114,7 +114,7 @@ window.PRODUCTS = [
   },
   {
     id: 'coffee-table',
-    name: 'Modern Coffee Table',
+    name: 'Item 11',
     price: 32000,
     description: 'Elegant coffee table with clean lines and premium finish.',
     images: [
@@ -125,7 +125,7 @@ window.PRODUCTS = [
   },
   {
     id: 'wall-clock',
-    name: 'Designer Wall Clock',
+    name: 'item 12',
     price: 12000,
     description: 'Minimalist wall clock that adds style to any room.',
     images: [
